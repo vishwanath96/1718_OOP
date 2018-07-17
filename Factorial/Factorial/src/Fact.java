@@ -1,18 +1,23 @@
 import java.util.Scanner;
-public class Fact {
 
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);///
-		int i,p=1,n;
-		System.out.print("Enter the Number: ");
-		n=scanner.nextInt();
-		scanner.nextLine();
-		for(i=1;i<=n;i++)
+public class Fact {		
+		private int p;
+		
+		
+		public void factorial(int n)
 		{
-			p=i*p;
+			int i;
+			for(i=1;i<=n;i++)
+			{
+				p=i*p;
+			}
+			System.out.println("Factorial = "+p);
 		}
-		System.out.println("Factorial = "+p);
-
-	}
-
+		public int getP() {
+			return p;
+		}
+		public void setP(int p) {
+			this.p = p;
+		}
 }
+
