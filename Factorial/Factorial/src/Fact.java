@@ -11,7 +11,7 @@ public class Fact {
 		{
 			p=i*p;
 		}
-		System.out.println("Factorial= "+p);
+		System.out.println("Factorial = "+p);
 
 	}
 
