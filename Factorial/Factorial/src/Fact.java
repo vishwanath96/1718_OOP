@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Fact {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);//
+		Scanner scanner = new Scanner(System.in);///
 		int i,p=1,n;
 		System.out.print("Enter the Number: ");
 		n=scanner.nextInt();
