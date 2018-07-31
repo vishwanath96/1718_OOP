@@ -9,7 +9,7 @@ public class Coach {
 		age = 0;
 		cname = "";
 		team_name = "";
-		System.out.println("creating object");
+		System.out.println("creating object of Coach");
 	}
 	
 	public Coach(String cname, Integer age, String team_name) {

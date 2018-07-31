@@ -11,7 +11,7 @@ public class Player {
 	public Player() {
 		age = 0;
 		name = "";
-		System.out.println("creating object");
+		System.out.println("creating object of Player");
 	}
 	
 	public Player(String name, Integer age) {

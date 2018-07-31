@@ -1,8 +1,12 @@
 package pojo;
 
-public class Team {
+public class Team extends Coach{
 	private Integer no_of_players;
 	private String name;
+	
+	public void management() {
+		System.out.println("\nManagement");
+	}
 	
 	public void plays() {
 		System.out.println("plays");
@@ -11,7 +15,7 @@ public class Team {
 	public Team() {
 		no_of_players = 0;
 		name = "";
-		System.out.println("creating object");
+		System.out.println("creating object of Team");
 	}
 	
 	public Team(String name, Integer no_of_players) {
