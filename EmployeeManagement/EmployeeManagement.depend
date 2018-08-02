@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1533202358 source:c:\users\vishu\documents\vishu_cpp\employeemanagement\src\pay.cpp
+	"Pay.h"
+
+1533202552 c:\users\vishu\documents\vishu_cpp\employeemanagement\include\pay.h
+
+1533204141 source:c:\users\vishu\documents\vishu_cpp\employeemanagement\main.cpp
+	<iostream>
+	"Staff.h"
+
+1533204414 c:\users\vishu\documents\vishu_cpp\employeemanagement\include\staff.h
+	<string>
+
